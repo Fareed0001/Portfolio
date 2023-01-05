@@ -1,0 +1,209 @@
+.navbar, footer {
+  background-color: #382372;
+}
+
+/* NAVBAR */
+.container-fluid.nav-container {
+  margin: 2% 0;
+}
+
+/* BODY */
+.row {
+  padding: 6% 2%;
+}
+
+.contact-text-1 {
+display: none;
+}
+
+.contact-text-2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.contact-text-3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: grey;
+  padding-bottom: 2%;
+}
+
+/* ICONS */
+.icon-link {
+  margin-top: 5%;
+}
+
+.contact-icon, .contact-mail-icon {
+  float: left;
+  padding: 3%;
+  color: white;
+  background-color: #382372;
+  margin-right: 3%;
+  border-radius: 6px;
+}
+
+.contact-icon:hover, .contact-mail-icon:hover {
+  background-color: white;
+  color: #382372;
+  border: 2px solid #382372;
+}
+
+.contact-icon {
+  font-size: 2rem;
+}
+
+.contact-mail-icon {
+  font-size: 1.5rem;
+  height: 3rem;
+}
+
+/* TEXT */
+.contact-text-4 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.contact-subtext-4 {
+  font-size: .8rem;
+  font-weight: lighter;
+}
+
+/* FORM */
+.form-div {
+  margin-top: 6%;
+  padding: 10%;
+  background-color: #382372;
+  border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 5%;
+}
+
+.contact-footer-icons {
+  font-size: 2.2rem;
+  --fa-animation-duration: 1.5s;
+  margin: 0 2%;
+  transition: 0.8s;
+  color: white;
+}
+
+.contact-footer-icons:hover {
+  font-size: 2.5rem;
+}
+
+@media only screen and (min-device-width: 750px) {
+  .navbar, footer {
+    background-color: #382372;
+  }
+
+  /* NAVBAR */
+  .container-fluid.nav-container {
+    margin: 1% 0;
+  }
+
+  /* BODY */
+  .body-container {
+    margin: 5% 0;
+    background-color: #f2fbff;
+    border-radius: 8px;
+  }
+
+  .row {
+    padding: 5%;
+  }
+
+  .contact-text-1 {
+    font-weight: 600;
+    color: #9282be;
+    margin-bottom: -2%;
+  }
+
+  .contact-text-2 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  .contact-text-3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: grey;
+    padding-bottom: 5%;
+  }
+
+  /* ICONS */
+  .icon-link {
+    margin-top: 5%;
+  }
+
+  .contact-icon, .contact-mail-icon {
+    float: left;
+    padding: 4%;
+    color: white;
+    background-color: #382372;
+    margin-right: 3%;
+    border-radius: 6px;
+  }
+
+  .contact-icon:hover, .contact-mail-icon:hover {
+    background-color: white;
+    color: #382372;
+    border: 2px solid #382372;
+  }
+
+  .contact-icon {
+    font-size: 2rem;
+  }
+
+  .contact-mail-icon {
+    font-size: 1.5rem;
+    height: 4rem;
+  }
+
+  /* TEXT */
+  .contact-text-4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .contact-subtext-4 {
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+
+  /* FORM */
+  .form-col {
+    background-image: url("../images/form-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .form-div {
+    margin: 5% 10%;
+    padding: 10%;
+    background-color: #382372;
+    border-radius: 8px;
+  }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 1.5%;
+  }
+
+  .contact-footer-icons {
+    font-size: 2.2rem;
+    --fa-animation-duration: 1.5s;
+    margin: 0 1%;
+    transition: 0.8s;
+    color: white;
+  }
+
+  .contact-footer-icons:hover {
+    font-size: 2.5rem;
+  }
+}
